@@ -1,0 +1,172 @@
+@media screen and ( max-width: 1245px )
+    header,
+    #tophead
+        display: none
+@media screen and ( min-width: 768px ) and ( max-width: 1245px )
+    footer
+        width: 1242px
+@media screen and ( max-width: 767px )
+    footer
+        width: auto
+    #filter-main .line-box
+        margin-bottom: 0
+        display: flex
+        align-items: center
+        flex-wrap: wrap
+    #filter-main .filter-field
+        margin-bottom: 20px
+        float: none
+    #filter-main .filter-field[data-type="typesale"]
+        order: 4
+        margin-right: 0
+        margin-left: 16px
+        height: 40px
+    #filter-main .filter-field[data-type="rooms"]
+        width: 100%
+        margin-right: 0
+        display: flex
+        justify-content: space-between
+    #filter-main .filter-field[data-type="price"]
+        margin-right: 0
+        width: 100%
+        display: flex
+        justify-content: space-between
+    #filter-main .filter-field[data-type="area"]
+        margin-right: 0
+    #filter-main .filter-field[data-type="area"],
+    #filter-main .filter-field.number-list .content-field
+        display: flex
+        width: 100%
+        align-items: center
+        justify-content: space-between
+    #filter-main .filter-field .from
+        width: 100%
+    #filter-main .filter-field .to
+        width: 100%
+    #filter-main .filter-field.number-list .currency
+        flex-shrink: 0
+    #filter-main .clean
+        position: relative
+        top: auto
+        right: auto
+        left: auto
+        height: 40px
+    #filter-main .bottom-line
+        display: flex
+        align-items: center
+        flex-wrap: wrap
+    #filter-main .bottom-line .cwsearch
+        margin-bottom: 20px
+    #filter-main .bottom-line .right-box
+        display: flex
+        align-items: center
+        flex-wrap: wrap
+        width: 100%
+        .filter-field,
+        .btn-search-full
+            width: 100%
+            margin-right: 0
+    #filter-main .btn-search-full
+        margin-bottom: 20px
+    .termin-main-box
+        display: flex
+        flex-direction: column
+    .termin-main-box .photo-box
+        display: flex
+        align-items: center
+        float: none
+        width: 100%
+    .termin-main-box .photo-box img
+        width: 100%
+        object-fit: cover
+        object-position: center
+    .termin-main-box .photo-boxes
+        float: none
+        width: 100%
+        max-width: 120px
+    .termin-main-box .tns-outer
+        width: 100% !important
+    .termin-main-box .bottom
+        // w100% - margin - w.photo-boxes
+        width: calc( 100% - 40px - 120px )
+    .termin-main-box .gallery-open
+        // w100% - ml - w.photo-boxes - w
+        left: calc( 100% - 20px - 120px - 30px )
+    .termin-main-box .info-box .main-box .params
+       display: flex
+       align-items: center
+       justify-content: space-between
+    .header-main .sort
+        margin-left: 0
+    .header-main .count
+        width: 100%
+        margin-bottom: 10px
+@media screen and ( max-width: 600px )
+    .termin-main-box .info-box .main-box .params .item > span
+        font-size: 16px
+        white-space: nowrap
+@media screen and ( max-width: 425px )
+    .termin-main-box .photo-box
+        flex-direction: column
+    .termin-main-box .photo-boxes
+        max-width: 100%
+        display: flex
+        align-items: center
+        height: auto
+        margin: 2px 0 0
+    .termin-main-box .photo-boxes img
+        width: calc( 100% / 4)
+    .termin-main-box .photo-boxes .plan-view
+        width: calc( 100% / 4)
+        position: absolute
+        left: auto
+        bottom: auto
+        top: 0
+        right: 0
+        margin: 0
+        font-size: 10px
+        font-weight: normal
+        letter-spacing: -0.5px
+    .termin-main-box .gallery-open
+        left: calc( 100% - 20px - 30px )
+    .termin-main-box .tns-outer .tns-controls
+        top: 90px !important
+    .termin-main-box .bottom
+        width: calc( 100% - 40px)
+        bottom: 95px
+    #filter-main .filter-field[data-type="rooms"]
+        flex-direction: column
+        height: auto
+    #filter-main .filter-field[data-type="rooms"] .checktype
+        margin-top: 10px
+        flex-shrink: 0
+    #filter-main .filter-field .to,
+    #filter-main .filter-field .from
+        width: 100% !important
+    .termin-main-box .photo-boxes *:last-child
+        margin: 0 0 2px
+    .termin-main-box.object .info-box
+        padding: 10px 15px
+        height: auto
+    .termin-main-box .info-box .number
+        position: relative
+        left: auto
+        right: auto
+        top: auto
+        width: 100%
+        text-align: center
+        margin-bottom: 20px
+    .termin-main-box .info-box .main-box .params
+        flex-wrap: wrap
+        margin-bottom: -10px
+    .termin-main-box .info-box .main-box .params .item
+        width: calc( 100% / 2  ) !important
+        margin: 0 0 10px
+    .termin-main-box.object .info-box .second-box .price-box
+        margin-top: 20px
+        text-align: left
+        float: left
+    #pager-wrap .load-more
+        margin: 0
+        width: 100%
+        
