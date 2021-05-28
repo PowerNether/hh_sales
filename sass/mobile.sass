@@ -105,7 +105,17 @@
     .termin-main-box .info-box .main-box .params .item > span
         font-size: 16px
         white-space: nowrap
-@media screen and ( max-width: 425px )
+    .termin-main-box.object .info-box
+        padding: 10px 15px
+        height: auto
+@media screen and ( max-width: 450px )
+    .termin-main-box.object .info-box .second-box .flag
+        width: 50%
+    .termin-main-box.object .info-box .second-box .price-box
+        margin-top: 20px
+        text-align: left
+        float: left
+        width: 100%
     .termin-main-box .photo-box
         flex-direction: column
     .termin-main-box .photo-boxes
@@ -145,9 +155,6 @@
         width: 100% !important
     .termin-main-box .photo-boxes *:last-child
         margin: 0 0 2px
-    .termin-main-box.object .info-box
-        padding: 10px 15px
-        height: auto
     .termin-main-box .info-box .number
         position: relative
         left: auto
@@ -162,11 +169,6 @@
     .termin-main-box .info-box .main-box .params .item
         width: calc( 100% / 2  ) !important
         margin: 0 0 10px
-    .termin-main-box.object .info-box .second-box .price-box
-        margin-top: 20px
-        text-align: left
-        float: left
     #pager-wrap .load-more
         margin: 0
         width: 100%
-        
